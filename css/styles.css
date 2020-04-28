@@ -1,24 +1,44 @@
+
+
 body{
+    background-color: rgb(121, 167, 107);
     font-family: "Open-Sans", sans-serif;
 }
 h1, h2, h3{
-    font-family: "Lobster", cursive;   
+    font-family: "Lobster", cursive, bold;   
+    
+}
+.table-success{
+    background-color: rgb(110, 145, 143);
 }
 h2{
-    color: #30a2c5;
+    color: white;
+    font-size: 40px;
 }
 header h2{
-    color: #cec8ff;
+    color: white;
+    font-size: 40px;
+}
+.card-header{
+    background-color: rgb(157, 212, 205);
+}
+p{
+    font-size: 25px;
+}
+li, h4{
+    font-size: large;
+    color:black;
 }
 
 .site-footer{
-    background-image: linear-gradient(#cec8ff, white);
+    font-size: large;
     padding: 20px 0;
+    color: black;
 }
 .jumbotron{
     margin: 0;
-    padding:30px;
-    background-image: linear-gradient(to right, #41230b, #684715, #926c40);
+    padding:200x;
+   
     color: white;
 }
 .row-content{
@@ -27,6 +47,14 @@ header h2{
     min-height: 200px;
 }
 .navbar{
-    background-color: darkolivegreen;
+    background-color: rgb(98, 126, 50,.5);
+
+}
+.table-color{
+    background-color :rgb(243, 248, 226);
+
+}
+.table-hover{
+    background-color :rgb(243, 248, 226);
 
 }
